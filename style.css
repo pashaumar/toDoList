@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.head{
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem 0;
+    color: white;
+}
+.head span{
+    color: rgba(232, 65, 24,1.0);
+}
+.main{
+    width: 350px;
+    margin: 3rem auto;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+.input input{
+    width: 290px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+.add{
+    width: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(232, 65, 24,1.0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.fas{
+    color: white;
+    font-size: 1.5rem;
+}
+.added{
+    width: 350px;
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    width: 280px;
+    color: white;
+    padding: 2px 0px;
+    border-bottom: 2px solid white;
+    overflow: hidden;
+    word-break: break-all;
+}
+.delete-button{
+    display: block;
+    background: none;
+    border: none;
+    margin: 15px 0 0 20px;
+    cursor: pointer;
+    color: rgba(232, 65, 24,1.0);
+    font-weight: 700;
+    outline: none;
+}
