@@ -10,11 +10,13 @@ add.addEventListener('click', function(){
     button.setAttribute('class','delete-button');
     button.innerText = 'Delete';
     para.innerText = input.value;
-    main.appendChild(div);
-    div.appendChild(para);
-    div.appendChild(button);
-    button.addEventListener('click', function(){
-        main.removeChild(div);
-    });
+    if(input.value != ''){
+        main.appendChild(div);
+        div.appendChild(para);
+        div.appendChild(button);
+        button.addEventListener('click', function(){
+            main.removeChild(div);
+        });
+    }
     input.value = '';
 });
