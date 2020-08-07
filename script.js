@@ -17,6 +17,8 @@ add.addEventListener('click', function(){
         button.addEventListener('click', function(){
             main.removeChild(div);
         });
+        para.contentEditable = 'true';
+        para.style.outline = 'none';
     }
     input.value = '';
 });
